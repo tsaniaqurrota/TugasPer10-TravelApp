@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".JenisFragment">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txt_title_checkout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order Ticket"
+        style="@style/CustomTextViewTitle"
+        android:layout_marginBottom="32dp"
+        />
+    <Spinner
+        android:id="@+id/spinner_jenis_tiket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:paddingStart="3dp"
+        style="@style/SpinnerCustom"
+        />
+    <Button
+        android:id="@+id/btn_buy_jenis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/CustomRoundedButton"
+        android:text="Buy Ticket"
+        />
+</LinearLayout>
